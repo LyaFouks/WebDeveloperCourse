@@ -1,10 +1,22 @@
 #post {
   color: yellow;
   background: red;
+  /* margin: 50px; */
+  /* margin-left: 30px;
+  margin-right: 100px;
+  margin-top: 50px;
+  margin-bottom: 150; */
+  /* margin: 50px 100px 150px 150px; */
+  width: 50%;
+  margin: 300px auto;
 }
 
 .second-change {
   color: white;
   background: blue;
   border: 2px dashed white;
+}
+
+body {
+  width: 50%;
 }
