@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Position Test</title>
+    <style type="text/css">
+      #p1 {
+        background: aquamarine;
+        position: absolute;
+        top: 100px;
+        left: 100px;
+        z-index: 2;
+        opacity: 0.7;
+      }
+
+      #p2 {
+        background: orange;
+        position: relative;
+        top: 100px;
+        left: 91px;
+        z-index: 1;
+
+      }
+    </style>
+  </head>
+  <body>
+    <div id="p1">
+      <p>First Paragraph</p>
+
+      <p>Second Paragraph</p>
+    </div>
+
+    <div id="p2">
+      <p>First Paragraph</p>
+
+      <p>Second Paragraph</p>
+    </div>
+
+  </body>
+</html>
