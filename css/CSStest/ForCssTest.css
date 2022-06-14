@@ -7,16 +7,13 @@
   margin-top: 50px;
   margin-bottom: 150; */
   /* margin: 50px 100px 150px 150px; */
-  width: 50%;
-  margin: 300px auto;
+  margin-bottom: 200px;
+  padding: 20px 30px 50px 50px;
 }
 
 .second-change {
   color: white;
   background: blue;
   border: 2px dashed white;
-}
-
-body {
-  width: 50%;
+  margin-bottom: 50px;
 }
